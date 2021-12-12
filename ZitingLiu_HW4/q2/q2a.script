@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --partition=express
+#SBATCH --nodes=4
+#SBATCH --tasks-per-node=1
+
+mpirun --mca btl_base_warn_component_unused 0 histo_a

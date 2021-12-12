@@ -1,0 +1,6 @@
+#!/bin/bash
+#SBATCH --partition=express
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+
+./q1_omp
